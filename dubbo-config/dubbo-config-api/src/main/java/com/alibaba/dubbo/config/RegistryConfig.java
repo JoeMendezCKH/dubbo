@@ -23,6 +23,7 @@ import java.util.Map;
 
 /**
  * RegistryConfig
+ * http://dubbo.apache.org/zh-cn/docs/user/references/xml/dubbo-registry.html
  *
  * @export
  */
@@ -39,7 +40,7 @@ public class RegistryConfig extends AbstractConfig {
     // password to login register center
     private String password;
 
-    // default port for register center
+    // default port for register center, 缺省为 9090
     private Integer port;
 
     // protocol for register center

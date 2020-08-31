@@ -22,6 +22,12 @@ import com.alibaba.dubbo.config.support.Parameter;
 import java.io.Serializable;
 
 /**
+ * 方法参数配置。
+ * http://dubbo.apache.org/zh-cn/docs/user/references/xml/dubbo-argument.html
+ * 在参数回调中使用，http://dubbo.apache.org/zh-cn/docs/user/demos/callback-parameter.html
+ *
+ * ？？？ 没看懂回调
+ *
  * @export
  */
 public class ArgumentConfig implements Serializable {

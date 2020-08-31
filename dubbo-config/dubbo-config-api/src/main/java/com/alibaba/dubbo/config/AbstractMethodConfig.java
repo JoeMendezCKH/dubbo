@@ -49,7 +49,13 @@ public abstract class AbstractMethodConfig extends AbstractConfig {
     // whether to ack async-sent
     protected Boolean sent;
 
-    // the name of mock class which gets called when a service fails to execute
+    /**
+     * the name of mock class which gets called when a service fails to execute
+     * <p>
+     * 服务接口调用失败 Mock 实现类名，该Mock类必须有一个无参构造函数
+     * 与 Local 的区别在于，Local 总是被执行，而 Mock 只在出现非业务异常(比如超时，网络异常等)时执行
+     * Local 在远程调用之前执行，Mock 在远程调用后执行
+     */
     protected String mock;
 
     // merger

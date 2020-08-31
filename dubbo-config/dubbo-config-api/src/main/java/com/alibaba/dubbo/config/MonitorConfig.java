@@ -22,6 +22,7 @@ import java.util.Map;
 
 /**
  * MonitorConfig
+ * http://dubbo.apache.org/zh-cn/docs/user/references/xml/dubbo-monitor.html
  *
  * @export
  */

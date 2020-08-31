@@ -23,6 +23,7 @@ import java.util.List;
 
 /**
  * ModuleConfig
+ * http://dubbo.apache.org/zh-cn/docs/user/references/xml/dubbo-module.html
  *
  * @export
  */

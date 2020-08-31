@@ -32,6 +32,9 @@ import java.util.Map;
 
 /**
  * ProtocolConfig
+ * <p>
+ * 服务提供者协议配置
+ * 属性参数 http://dubbo.io/books/dubbo-user-book/references/xml/dubbo-protocol.html
  *
  * @export
  */

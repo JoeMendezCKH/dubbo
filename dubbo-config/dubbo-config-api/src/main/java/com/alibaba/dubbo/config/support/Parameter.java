@@ -34,12 +34,12 @@ public @interface Parameter {
 
     boolean required() default false;
 
-    boolean excluded() default false;
+    boolean excluded() default false; // is ignore?
 
-    boolean escaped() default false;
+    boolean escaped() default false; // 是否转义
 
-    boolean attribute() default false;
+    boolean attribute() default false; // 是否为属性, 目前用于《事件通知》http://dubbo.apache.org/zh-cn/docs/user/demos/events-notify.html
 
-    boolean append() default false;
+    boolean append() default false; //  是否拼接默认属性
 
 }
